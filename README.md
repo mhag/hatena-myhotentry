@@ -4,6 +4,9 @@ Generate and Publish RSS feed for "Hatena My Hotentry"
 ## Usage
 
 ```
+$ git clone git@github.com:mhag/hatena-myhotentry.git
+$ cd hatena-myhotentry
+$ bundle install --path vendor/bundle
 $ cp hatena.sample.yaml hatena.yaml
 $ vi hatena.yaml
 $ ruby app.rb
