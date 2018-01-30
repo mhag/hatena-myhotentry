@@ -9,7 +9,7 @@ $ cd hatena-myhotentry
 $ bundle install --path vendor/bundle
 $ cp hatena.sample.yml hatena.yml
 $ vi hatena.yml
-$ ruby app.rb
+$ bundle exec ruby ./app.rb
 ```
 
 ## Contributing
