@@ -7,8 +7,8 @@ Generate and Publish RSS feed for "Hatena My Hotentry"
 $ git clone git@github.com:mhag/hatena-myhotentry.git
 $ cd hatena-myhotentry
 $ bundle install --path vendor/bundle
-$ cp hatena.sample.yaml hatena.yaml
-$ vi hatena.yaml
+$ cp hatena.sample.yml hatena.yml
+$ vi hatena.yml
 $ ruby app.rb
 ```
 
